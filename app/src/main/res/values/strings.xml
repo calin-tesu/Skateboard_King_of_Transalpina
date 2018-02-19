@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Skot</string>
+    <string name="title">The King of Transalpina</string>
+    <string name="description">This is not an usual downhill skateboard event. The road is also called \"Road of The Kings\" ,so you should prove that you are one of them . The riding here is till the wasteness,the weather is one of the wildest and you have to get over the first 5 days of riding, healthy and in one piece, to be able to take part at the most craziest downhill run and beat the actual King: \"The King of Transalpina\"</string>
+    <string name="facebook_page">skatetripkingoftransalpina</string>
+    <string name="youtube_page">https://www.youtube.com/watch?v=_P1-gqIXGy4</string>
+    <string name="map_route"><![CDATA[saddr=45.43,23.63&daddr=45.68,23.60]]></string>
+    <string name="email_address">dhskateboardromania@gmail.com</string>
+    <string name="phone_number">0040753800758</string>
+</resources>

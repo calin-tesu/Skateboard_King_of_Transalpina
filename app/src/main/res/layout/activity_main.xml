@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context="com.example.android.skot.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="@dimen/margins"
+        android:layout_weight="1"
+        android:drawableLeft="@drawable/skot_logo1"
+        android:fontFamily="@font/faster_one"
+        android:gravity="center"
+        android:text="@string/title"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/title_font_size" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="@dimen/margins"
+        android:layout_weight="3"
+        android:scaleType="centerInside"
+        android:src="@drawable/skot" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_weight="2">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margins"
+            android:gravity="center_vertical"
+            android:text="@string/description"
+            android:textSize="@dimen/description_font_size" />
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <ImageButton
+            android:src="@drawable/facebook"
+            android:onClick="facebook"
+            style="@style/Image_button" />
+
+        <ImageButton
+            android:src="@drawable/youtube"
+            android:onClick="youTube"
+            style="@style/Image_button" />
+
+        <ImageButton
+            android:src="@drawable/google_maps"
+            android:onClick="googleMap"
+            style="@style/Image_button" />
+
+        <ImageButton
+            android:src="@drawable/gmail"
+            android:onClick="email"
+            style="@style/Image_button" />
+
+        <ImageButton
+            android:src="@drawable/phone"
+            android:onClick="phone"
+            style="@style/Image_button"/>
+    </LinearLayout>
+
+</LinearLayout>
