@@ -5,13 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="8dp"
+    android:padding="16dp"
     tools:context="com.example.android.skot.MainActivity">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:layout_marginBottom="@dimen/margins"
+
         android:layout_weight="1"
         android:drawableLeft="@drawable/skot_logo1"
         android:fontFamily="@font/faster_one"
@@ -23,7 +23,6 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:layout_marginBottom="@dimen/margins"
         android:layout_weight="3"
         android:scaleType="centerInside"
         android:src="@drawable/skot" />
@@ -52,27 +51,27 @@
         <ImageButton
             android:src="@drawable/facebook"
             android:onClick="facebook"
-            style="@style/Image_button" />
+            style="@style/ImageButton" />
 
         <ImageButton
             android:src="@drawable/youtube"
             android:onClick="youTube"
-            style="@style/Image_button" />
+            style="@style/ImageButton" />
 
         <ImageButton
             android:src="@drawable/google_maps"
             android:onClick="googleMap"
-            style="@style/Image_button" />
+            style="@style/ImageButton" />
 
         <ImageButton
             android:src="@drawable/gmail"
             android:onClick="email"
-            style="@style/Image_button" />
+            style="@style/ImageButton" />
 
         <ImageButton
             android:src="@drawable/phone"
             android:onClick="phone"
-            style="@style/Image_button"/>
+            style="@style/ImageButton"/>
     </LinearLayout>
 
 </LinearLayout>

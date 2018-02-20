@@ -2,5 +2,5 @@
 <resources>
     <dimen name="margins">8dp</dimen>
     <dimen name="title_font_size">24sp</dimen>
-    <dimen name="description_font_size">18sp</dimen>
+    <dimen name="description_font_size">14sp</dimen>
 </resources>
